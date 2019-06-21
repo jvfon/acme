@@ -9,7 +9,15 @@ body {
     margin: 0;  /* by default the top and bottom of the page have padding and margin, these will show */
     background-color: #f4f4f4; /* hexadecimal number, light grey */
 }
+/* global */
 .container {
     width: 80%;
     margin: auto; /* move everything to the center */
+    overflow: hidden; /* if something goes outside of a div, we don't want a scroll bar */
+}
+
+/* header */
+header {
+    background: #35424a;
+    
 }
