@@ -16,6 +16,10 @@ body {
     overflow: hidden; /* if something goes outside of a div, we don't want a scroll bar */
 }
 
+ul {
+    margin: 0;
+}
+
 /* header */
 header {
     background: #35424a;
@@ -32,15 +36,40 @@ header a{
     text-transform: uppercase;
     font-size: 16px;
 }
-
-header ul {
+/* we want all the ul's to have margin of 0. We put it above with everything global */
+/*header ul {
     margin: 0; /* by default ul as margin and padding */
-    padding: 0; /* we want them set to zero */
-}
+    /* padding: 0; /* we want them set to zero */
+/*} */
 
 header li {
     float: left; /* makes them go horizontal */
     display: inline; /* removes the bullet points */
     padding: 0 20px 0 20px; /* padding only for the right and left sides */
-    
 }
+
+header #branding {
+    float: left; /* float "acme web design" to the left */
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right; /* float menu to the right */
+    margin-top: 10px;
+}
+
+/* header with the class of highlight, header with the class of current and the link inside it */
+header .highlight, header .current a{ 
+    color: #e8491d; /* change "acme' and "home" link to orange */
+    font-weight: bold; 
+}
+
+header a:hover {
+    color: #cccccc; /* links from nav bar turn grey when mouse hover over them */
+    font-weight: bold;
+}
+
+/* showcase */
