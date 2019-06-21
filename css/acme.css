@@ -19,5 +19,16 @@ body {
 /* header */
 header {
     background: #35424a;
-    
+    color: #ffffff; /* white text */
+    padding-top: 30px;
+    min-height: 70px; /* header adjusts to small screens */
+    border-bottom: #e8491d 3px solid; /* 3px is the width of the border */
+}
+
+/* header links */
+header a{
+    color: #ffffff;
+    text-decoration: none; /* remove the underline */
+    text-transform: uppercase;
+    font-size: 16px;
 }
