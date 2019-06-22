@@ -20,6 +20,12 @@ ul {
     margin: 0;
 }
 
+.button_1 { /* do this while working on email field form */
+    height: 38px; /*increase in size */
+    background: #e8491d;
+    border: 0; /* border: none; also works */ /* remove default border */
+}
+
 /* header */
 header {
     background: #35424a;
@@ -96,3 +102,19 @@ header a:hover {
     color: #ffffff;
     background: #35424a; /* same as header */
 }
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {  /* use type to be more specific */
+    padding: 4px; 
+    height: 25px; /* makes the field larger */
+    width: 250px;
+}
+
