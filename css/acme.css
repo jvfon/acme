@@ -24,6 +24,9 @@ ul {
     height: 38px; /*increase in size */
     background: #e8491d;
     border: 0; /* border: none; also works */ /* remove default border */
+    padding-left: 20px; /* increase button size */
+    padding-right: 20px;
+    color: #ffffff; /* change text color */
 }
 
 /* header */
