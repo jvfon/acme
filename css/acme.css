@@ -27,7 +27,7 @@ ul {
     padding-left: 20px; /* increase button size */
     padding-right: 20px;
     color: #ffffff; /* change text color */
-}
+} /* work on boxes area */
 
 /* header */
 header {
@@ -100,6 +100,7 @@ header a:hover {
     font-size: 20px; /* enlarge <p> to 20px */
 }
 
+/* newsletter */
 #newsletter {
     padding: 15px;
     color: #ffffff;
@@ -121,3 +122,18 @@ header a:hover {
     width: 250px;
 }
 
+/* boxes */
+#boxes {
+    margin-top: 20px; /* move boxes down */  
+}
+
+#boxex .box {
+    float: left;
+    text-align: center;
+    width: 30%; /* % to make it responsive */
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px; /* not putting on the height makes it auto */
+}
