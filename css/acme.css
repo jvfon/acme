@@ -127,7 +127,7 @@ header a:hover {
     margin-top: 20px; /* move boxes down */  
 }
 
-#boxex .box {
+#boxes .box {
     float: left;
     text-align: center;
     width: 30%; /* % to make it responsive */
