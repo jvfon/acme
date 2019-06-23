@@ -6,7 +6,7 @@
         <meta name="description" content="Affordable and professional web design"> <!--For SEO-->
         <meta name="keywords" content="web design, affordable web design, professional web design">
         <meta name="author" content="Jose">
-        <title>ACME Web Design | About</title> <!-- changed 'welcome' to about-->
+        <title>ACME Web Design | Services</title> <!-- changed 'about' to services-->
         <link rel="stylesheet" href="css/acme.css" type="text/css">
     </head>
     <body>
@@ -23,8 +23,9 @@
                     <!--unordered lists are used for menus-->
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li class="current"><a href="about.html">About</a></li> <!-- removed class 'current' from index to about-->
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                         <!-- removed class 'current' from about to services-->
+                        <li class="current"><a href="services.html">Services</a></li> 
                     </ul>
                 </nav>
             </div>
@@ -44,22 +45,54 @@
 
         <section id="main"> <!-- changed id 'boxes' to 'main'-->
             <div class="container"> <!-- kept the container but erased everything inside-->
-                <article id='main-col'> <!-- added article -->
-                    <h1 class='page-title'>About Us</h1>
-                    <p>
-                        Bits of moving fluff realm of the galaxies stirred by starlight brain is the seed of intelligence muse about Flatland. Rich in mystery emerged into consciousness globular star cluster the carbon in our apple pies something incredible is waiting to be known nisi ut aliquid ex ea commodi consequatur. A mote of dust suspended in a sunbeam encyclopaedia galactica the sky calls to us how far away with pretty stories for which there's little good evidence a still more glorious dawn awaits.
-                    </p>
-                    <p class="dark">
-                        Cosmic ocean a billion trillion gathered by gravity vel illum qui dolorem eum fugiat quo voluptas nulla pariatur totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo tingling of the spine. Across the centuries hundreds of thousands Ut enim ad minima veniam something incredible is waiting to be known across the centuries venture. Vastness is bearable only through love not a sunrise but a galaxyrise not a sunrise but a galaxyrise something incredible is waiting to be known are creatures of the cosmos Quis autem vel eum iure 
-                    </p>
+                <article id='main-col'> <!-- deleted paragraphs from about page -->
+                    <ul id="services">
+                        <h3>Website Design</h3>
+                        <p>
+                            Across the centuries hundreds of thousands Ut enim ad minima veniam something incredible is waiting to be known across the centuries venture.     
+                        </p>
+                        <p>
+                            Pricing: $1,000 - $3,000
+                        </p>
+                        <h3>Website Maintenance</h3>
+                        <p>
+                            Across the centuries hundreds of thousands Ut enim ad minima veniam something incredible is waiting to be known across the centuries venture.     
+                        </p>
+                        <p>
+                            Pricing: $250 per month.
+                        </p>
+                        <h3>Website Hosting</h3>
+                        <p>
+                            Across the centuries hundreds of thousands Ut enim ad minima veniam something incredible is waiting to be known across the centuries venture.     
+                        </p>
+                        <p>
+                            Pricing: $25 per month.
+                        </p>    
+                    </ul>
                 </article> 
 
                 <aside id="sidebar"> <!-- sidebar -->
                     <div class="dark">
-                        <h3>What We Do</h3>
-                        <p>
-                            Across the centuries hundreds of thousands Ut enim ad minima veniam something incredible is waiting to be known across the centuries venture. Vastness is bearable only through love not a sunrise but a galaxyrise not a sunrise but a galaxyrise 
-                        </p>
+                        <h3>Get A Quote</h3> <!-- paragraph erased from about page, form added-->
+                        <form class="quote">
+                            <div>
+                                <label>Name</label><br>
+                                <input type="text" placeholder="Name">
+                            </div>
+                        
+                        
+                            <div>
+                                <label>Email</label><br>
+                                <input type="text" placeholder="Email Address">
+                            </div>
+                        
+                       
+                            <div>
+                                <label>Message</label><br>
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <button class="button_1" type="submit">Send</button>
+                        </form>
                     </div>
                 </aside>  
             </div>
