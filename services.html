@@ -1,9 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html> <!-- copied and pasted about.html, then changed-->
     <head>
-
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width"> <!--set webpage width to match the device-->
+        <meta name="description" content="Affordable and professional web design"> <!--For SEO-->
+        <meta name="keywords" content="web design, affordable web design, professional web design">
+        <meta name="author" content="Jose">
+        <title>ACME Web Design | About</title> <!-- changed 'welcome' to about-->
+        <link rel="stylesheet" href="css/acme.css" type="text/css">
     </head>
     <body>
-        
+        <header>
+            <!--a container to keep everything in the middle and -->
+            <!--prevent them going to the left (left align)-->
+            <div class="container">
+                <div id="branding">
+                    <!--here you can also put a logo-->
+                    <!--if we use a div instead of a span, ACME goes into its own line-->
+                    <h1><span class="highlight">ACME</span> Web Design</h1>
+                </div>
+                <nav>
+                    <!--unordered lists are used for menus-->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="about.html">About</a></li> <!-- removed class 'current' from index to about-->
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- showcase deleted -->
+
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe To Our Newsletter</h1>
+                <form action> <!-- ="process.php"> --> <!--normally it would have backend code: <form action="process.php">-->
+                    <input type="email" placeholder="Enter email...">
+                    <button type="Submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="main"> <!-- changed id 'boxes' to 'main'-->
+            <div class="container"> <!-- kept the container but erased everything inside-->
+                <article id='main-col'> <!-- added article -->
+                    <h1 class='page-title'>About Us</h1>
+                    <p>
+                        Bits of moving fluff realm of the galaxies stirred by starlight brain is the seed of intelligence muse about Flatland. Rich in mystery emerged into consciousness globular star cluster the carbon in our apple pies something incredible is waiting to be known nisi ut aliquid ex ea commodi consequatur. A mote of dust suspended in a sunbeam encyclopaedia galactica the sky calls to us how far away with pretty stories for which there's little good evidence a still more glorious dawn awaits.
+                    </p>
+                    <p class="dark">
+                        Cosmic ocean a billion trillion gathered by gravity vel illum qui dolorem eum fugiat quo voluptas nulla pariatur totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo tingling of the spine. Across the centuries hundreds of thousands Ut enim ad minima veniam something incredible is waiting to be known across the centuries venture. Vastness is bearable only through love not a sunrise but a galaxyrise not a sunrise but a galaxyrise something incredible is waiting to be known are creatures of the cosmos Quis autem vel eum iure 
+                    </p>
+                </article> 
+
+                <aside id="sidebar"> <!-- sidebar -->
+                    <div class="dark">
+                        <h3>What We Do</h3>
+                        <p>
+                            Across the centuries hundreds of thousands Ut enim ad minima veniam something incredible is waiting to be known across the centuries venture. Vastness is bearable only through love not a sunrise but a galaxyrise not a sunrise but a galaxyrise 
+                        </p>
+                    </div>
+                </aside>  
+            </div>
+        </section>
+           
+        <footer>
+            <p>ACME Web Design Copywright &copy; 2019</p>
+        </footer>
     </body>
 </html>
